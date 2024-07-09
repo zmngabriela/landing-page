@@ -65,6 +65,11 @@ header nav ul {
     list-style: none;
 }
 
+header nav a,
+h1 {
+    text-transform: uppercase;
+}
+
 .container1 {
     height: 40vh;
     width: 100%;
@@ -105,26 +110,17 @@ button {
     max-width: 230px;
 }
 
+button:hover,
+.header-contact1:hover,
+.header-contact2:hover,
+header nav li:hover {
+    scale: 1.01;
+}
+
 .container2 {
     height: 60vh;
     max-width: 70vw;
     margin: 100px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container2 .about {
-    width: 30vw;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container2 .services {
-    width: 50vw;
-    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;

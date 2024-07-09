@@ -8,35 +8,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
     <header>
         <div class="header-contacts">
             <div class="header-contact1">
                 <a href="tel:999797000" target="_blank" title="Ligue pro nosso número de telefone">
-                    <img width="15px" src="./telephone.png" alt="Phone-icon">
+                    <img width="15px" src="./icons/telephone.png" alt="Phone-icon">
                     <p>999797000</p>
                 </a>
             </div>
             <div class="header-contact2">
                 <a href="https://api.whatsapp.com/send?phone=999797000" target="_blank" title="Nos envie uma mensagem no Whats">
-                    <img width="15px" src="./whatsapp (1).png" alt="Whatsapp-icon" />
+                    <img width="15px" src="./icons/whatsapp (1).png" alt="Whatsapp-icon" />
                     <p>WHATSAPP</p>
                 </a>
             </div>
         </div>
-        <h1>CALHAS</h1>
+        <h1>Calhas</h1>
         <nav>
             <ul>
-                <li><a href="#container1">INICIO</a></li>
-                <li><a href="#container2">SERVIÇOS</a></li>
-                <li><a href="#container3">SOBRE NÓS</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicos</a></li>
+                <li><a href="#">Sobre nos</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <div id="container1" class="container1">
+            <div class="container1">
                 <div class="color">
                     <h2>Sua casa, nosso compromisso</h2>
                     <p>30 anos de experiência para proteger o que você mais ama.</p>
@@ -45,22 +47,19 @@
                 <div class="image"></div>
             </div>
         </section>
-            <div id="container2" class="container2">
-                <div class="about">
-                    <h3>O que fazemos?</h3>
-                    <p></p>
-                </div>
-                <div class="services">
-                    <a href="" id="service" class="service1"><p>Calhas</p></a>
-                    <a href="" id="service" class="service2"><p>Rufos</p></a>
-                    <a href="" id="service" class="service3"><p>Canos</p></a>
-                    <a href="" id="service" class="service4"><p>Correntes</p></a>
-                    <a href="" id="service" class="service5"><p>Coifas</p></a>
-                    <a href="" id="service" class="service6"><p>Concerto</p></a>
-                </div>
+            <div class="container2" 
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="2000">
+                <a href="" id="service" class="service1"><p>Calhas</p></a>
+                <a href="" id="service" class="service2"><p>Rufos</p></a>
+                <a href="" id="service" class="service3"><p>Canos</p></a>
+                <a href="" id="service" class="service4"><p>Correntes</p></a>
+                <a href="" id="service" class="service5"><p>Coifas</p></a>
+                <a href="" id="service" class="service6"><p>Concerto</p></a>
             </div>
         <section>
-            <div id="container3" class="container3">
+            <div class="container3">
                 <p><strong>Fundada em São Paulo, SP</strong></p>
                 <p>Agora também disponível no Sorocaba e toda região</p>
                 <button type="button">Sobre nós</button>
@@ -91,19 +90,19 @@
             <div class="footer-contacts">
                 <div class="footer-contact1">
                     <a href="tel:999797000" title="Ligue pro nosso número de telefone">
-                        <img width="15px" src="./telephone.png" alt="Phone-icon">
+                        <img width="15px" src="./icons/telephone.png" alt="Phone-icon">
                         <p>999797000</p>
                     </a>
                 </div>
                 <div class="footer-contact2">
                     <a href="https://api.whatsapp.com/send?phone=999797000" target="_blank" title="Nos envie uma mensagem no Whats">
-                        <img width="20px" src="./whatsapp (1).png" alt="Whatsapp-icon" />
+                        <img width="20px" src="./icons/whatsapp (1).png" alt="Whatsapp-icon" />
                         <p>Whatsapp</p>
                     </a>
                 </div>
                 <div class="footer-contact3">
                     <a href="mailto:calhas@exemplo.com" title="Nos envie um email">
-                        <img width="20px" src="./mail.png" alt="Whatsapp-icon" />
+                        <img width="20px" src="./icons/mail.png" alt="Whatsapp-icon" />
                         <p>Email</p>
                     </a>
                 </div>
@@ -114,21 +113,25 @@
             <ul>
                 <li>
                     <a href="https://www.instagram.com/" title="Siga-nos no Instagram">
-                        <img src="./instagram.png" alt="Logo do Instagram">
+                        <img src="./icons/instagram.png" alt="Logo do Instagram">
                     </a>
                 </li>
                 <li>
-                    <a href="https://es-es.facebook.com/" title="Siga-nos no Facebook">
-                        <img src="./facebook.png" alt="Logo do Facebook">
+                    <a href="https://facebook.com/" title="Siga-nos no Facebook">
+                        <img src="./icons/facebook.png" alt="Logo do Facebook">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.youtube.com/?gl%3DES%26hl%3Des" title="Visite o nosso canal no Youtube">
-                        <img src="./youtube.png" alt="Logo do Youtube">
+                        <img src="./icons/youtube.png" alt="Logo do Youtube">
                     </a>
                 </li>
             </ul> 
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
