@@ -113,7 +113,8 @@ button {
 button:hover,
 .header-contact1:hover,
 .header-contact2:hover,
-header nav li:hover {
+header nav li:hover,
+#service:hover {
     scale: 1.01;
 }
 
