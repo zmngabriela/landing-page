@@ -280,18 +280,27 @@ textarea,
 #form-select {
     flex: 1;
     width: 200px;
-    padding: 8px;
+    padding: 4px 8px;
     border: 2px solid black;
     color: grey;
 }
 
 #form-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     padding-right: 35px;
 }
 
 textarea {
     resize: none;
     height: 60px;
+}
+
+#form-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .social h3 {
@@ -347,7 +356,7 @@ textarea {
 
     .footer-container {
         flex-wrap: wrap;
-        align-items: center;
+        align-items: top;
     }
 
     .social ul li {
