@@ -360,6 +360,14 @@ textarea {
     }
 }
 
+@media (max-width: 625px) {
+  .quote,
+  .contacts,
+  .social {
+      align-items: start;
+  }
+}
+
 @media (max-width: 480px) {
     .header-container {
         gap: 20px;
