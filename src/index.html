@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../public/favicon.ico" type="image/x-icon">
+        <title>House</title>
+        <link rel="stylesheet" href="./main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header-container container">
+                <div class="header-contacts">
+                    <div class="header-contact">
+                        <a href="tel:+34605148962" target="_blank" title="Call us">
+                            <img width="15px" src="./assets/icons/telephone.png" alt="Phone-icon">
+                            <p>+34605148962</p>
+                            </a>
+                            </div>
+                    <div class="header-contact">
+                        <a href="https://api.whatsapp.com/send?phone=+34605148962" target="_blank" title="Send us a message">
+                            <img width="15px" src="./assets/icons/whatsapp (1).png" alt="Whatsapp-icon" />
+                            <p>WHATSAPP</p>
+                        </a>
+                    </div>
+                </div>
+                <h1>House</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="color">
+                    <h2>Your house, our commitment</h2>
+                    <p>30 years of experience to protect what you love most.</p>
+                    <button type="button">Quote with no obligation</button>
+                </div>
+                <div class="image"></div>
+            </section>
+            <section class="about container">
+                    <h2>We handle the hard work, <span>so you can enjoy the beauty of your home.</span></h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias aperiam, reprehenderit sequi accusantium dolores dolorum rem deleniti voluptates assumenda vero voluptatem eligendi ea praesentium architecto, cumque debitis expedita repellendus officiis!</p>
+            </section>
+            <section class="services container">
+                <div class="services-list container"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="2000">
+                    <a href="" class="service">
+                        <img src="./assets/services/roof.jpeg" alt="Roof renovation">
+                        <p>Roof Renovation</p>
+                    </a>
+                    <a href="" class="service">
+                        <img src="./assets/services/garden.jpg" alt="Garden">
+                        <p>Garden Design</p>
+                    </a>
+                    <a href="" class="service">
+                        <img src="./assets/services/paint.jpg" alt="Painting">
+                        <p>Painting</p>
+                    </a>
+                    <a href="" class="service">
+                        <img src="./assets/services/irrigation.jpeg" alt="Irrigation system">
+                        <p>Irrigation system</p>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <div class="more">
+                    <p><strong>Founded in Barcelona, Spain</strong></p>
+                    <p>Now serving the entire Catalan region.</p>
+                    <button type="button">Learn more about us</button>
+                </div>
+                <div class="maps">
+                    <iframe title="Home Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.6397235656596!2d2.171780875919256!3d41.40362987129792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2dcd83dfb93%3A0x9bd8aac21bc3c950!2sBas%C3%ADlica%20de%20la%20Sagrada%20Fam%C3%ADlia!5e0!3m2!1sen!2sus!4v1724946285853!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>            
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="contacts">
+                    <h3>Contact</h3>
+                    <div class="footer-contacts">
+                        <div class="footer-contact">
+                            <a href="tel:+34605148962" title="Call us">
+                                <img width="15px" src="./assets/icons/telephone.png" alt="Phone-icon">
+                                <p>+34605148962</p>
+                            </a>
+                        </div>
+                        <div class="footer-contact">
+                            <a href="https://api.whatsapp.com/send?phone=+34605148962" target="_blank" title="Send us a message">
+                                <img width="20px" src="./assets/icons/whatsapp (1).png" alt="Whatsapp-icon" />
+                                <p>Whatsapp</p>
+                            </a>
+                        </div>
+                        <div class="footer-contact">
+                            <a href="mailto:example@exemplo.com" title="Send us an email">
+                                <img width="20px" src="./assets/icons/mail.png" alt="Whatsapp-icon" />
+                                <p>Email</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote">
+                    <h3>Quote</h3>
+                    <form>
+                        <div class="form-item">
+                            <label>Name:</label>
+                            <input type="text" placeholder="Your name" required>
+                        </div>
+                        <div class="form-item">
+                            <label>Phone:</label>
+                            <input type="tel" placeholder="Your phone" required>
+                        </div>
+                        <div class="form-item">
+                            <label for="form-select">Service:</label>
+                            <select id="form-select" name="form-select" required>
+                                <option value="">Select</option>
+                                <option value="roofrenovation">Roof Renovation</option>
+                                <option value="gardendesign">Garden Design</option>
+                                <option value="pestcontrol">Painting</option>
+                                <option value="another">Another</option>
+                            </select>
+                        </div>
+                        <div class="form-item">
+                            <label>Message:</label>
+                            <textarea placeholder="Send us a message"></textarea>
+                        </div>
+                        <button type="submit" class="form-button">
+                            Send
+                        </button>
+                    </form>
+                </div>
+                <div class="social">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/" title="Follow us on Instagram">
+                                <img src="./assets/icons/instagram.png" alt="Instagram Logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com/" title="Follow us on Facebook">
+                                <img src="./assets/icons/facebook.png" alt="Facebook logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/?gl%3DES%26hl%3Des" title="Visit our Youtube Channel">
+                                <img src="./assets/icons/youtube.png" alt="Youtube logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
