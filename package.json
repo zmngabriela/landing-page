@@ -4,6 +4,7 @@
   "description": "Landing page",
   "scripts": {
     "build": "gulp",
+    "dev": "live-server src --open=index.html",
     "start": "live-server dist --open=index.html"
   },
   "type": "module",
